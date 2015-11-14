@@ -1,0 +1,55 @@
+<html>
+<head>
+  <title>Портфолио</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Main.css">
+  <link href='https://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+	<script src="script/script.js"></script>
+  <script src="script/jq.js"></script>
+  <script src="script/jquery-2.1.4.js"></script>
+  <script type="text/javascript" src="script/jquery.color.js"></script>
+
+</head>
+<body background = "img/1.jpg">
+	<div id="bgfon">
+    <div id="top-menu" class="border-fon">
+      <ul>
+        <li><a href="#">Welcome</a></li>
+        <li><a href="#">Portfilio</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Sing in</a></li>
+      </ul>
+  		<div id="button-top">Themes</div>
+    </div>
+    <h1 class="top-text">привет;)</h1>
+    <div id="container"></div>
+    <div id="container2"></div>
+    <div id="footer" class="border-fon">
+      <div id="footer-text">
+        <h1> <a target="_blank" href="http://vk.com/id147125692">Like Me Please...</a> </h1>
+      </div>
+    </div>
+	</div>
+
+  <script type="text/javascript">
+    $("#footer-text>h1").mouseenter(function(){
+      $(this)
+      .animate({
+        fontSize: "+=15px"
+      },220);
+    });
+
+
+    $("#footer-text>h1").mouseleave(function(){
+      $(this)
+      .animate({
+        fontSize: "-=15px"
+      },220);
+      });
+
+
+  </script>
+</body>
+</html>
